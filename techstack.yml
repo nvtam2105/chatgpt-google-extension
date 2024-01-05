@@ -1,11 +1,12 @@
 repo_name: nvtam2105/chatgpt-google-extension
 report_id: 31a742cce4db20be2bf2af126608b266
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T16:00:56+00:00'
+timestamp: '2024-01-05T08:52:57+00:00'
 requested_by: wong2
 provider: github
 branch: main
-detected_tools_count: 37
+detected_tools_count: 39
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-25 04:34:35.000000000 Z
@@ -57,7 +62,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/4388/preact.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-19 03:47:05.000000000 Z
@@ -71,7 +76,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-19 03:47:05.000000000 Z
@@ -84,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-26 05:40:05.000000000 Z
@@ -96,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-04 12:14:14.000000000 Z
@@ -107,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -116,6 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/.github/workflows/pre-release-build.yml
   detection_source: ".github/workflows/pre-release-build.yml"
   last_updated_by: josc146
   last_updated_on: 2022-12-08 08:00:01.000000000 Z
@@ -129,7 +138,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-06 11:24:59.000000000 Z
@@ -141,6 +150,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-04 12:14:14.000000000 Z
@@ -153,12 +163,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-17 05:51:52.000000000 Z
@@ -167,6 +179,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-24 13:51:35.000000000 Z
@@ -180,7 +193,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -194,7 +207,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17516/default_911633508f32a5d5016c37ab38144cd661ceb682.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -208,7 +221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -222,7 +235,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-06 11:24:59.000000000 Z
@@ -236,7 +249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -250,7 +263,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-11 11:13:30.000000000 Z
@@ -265,7 +278,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16834/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-24 11:48:48.000000000 Z
@@ -279,7 +292,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-06 11:24:59.000000000 Z
@@ -293,7 +306,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-06 11:24:59.000000000 Z
@@ -307,7 +320,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-06 11:24:59.000000000 Z
@@ -322,7 +335,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -336,10 +349,38 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17585/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-12 14:07:28.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: wong2
+  last_updated_on: 2022-12-17 05:51:52.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Wang Dàpéng
+  last_updated_on: 2022-12-24 13:51:35.000000000 Z
 - name: lodash-es
   description: Lodash exported as ES modules
   package_url: https://www.npmjs.com/lodash-es
@@ -350,7 +391,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-24 13:51:35.000000000 Z
@@ -364,7 +405,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-25 04:34:35.000000000 Z
@@ -385,7 +426,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16233/default_dc80ff0a17bac19253430a4f0f586714841116db.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-25 04:34:35.000000000 Z
@@ -399,7 +440,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2023-01-05 11:42:46.000000000 Z
@@ -414,7 +455,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18282/default_807e706fb4295a0b54623f7e1643199bb97a2590.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-06 15:39:16.000000000 Z
@@ -428,7 +469,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-19 03:47:05.000000000 Z
@@ -442,7 +483,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-19 03:47:05.000000000 Z
@@ -456,7 +497,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: wong2
   last_updated_on: 2022-12-25 04:36:56.000000000 Z
@@ -470,7 +511,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-25 04:34:35.000000000 Z
@@ -484,7 +525,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nvtam2105/chatgpt-google-extension/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Wang Dàpéng
   last_updated_on: 2022-12-24 13:51:35.000000000 Z
