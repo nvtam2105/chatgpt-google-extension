@@ -2,7 +2,7 @@ repo_name: nvtam2105/chatgpt-google-extension
 report_id: 31a742cce4db20be2bf2af126608b266
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:52:57+00:00'
+timestamp: '2024-02-29T18:36:43+00:00'
 requested_by: wong2
 provider: github
 branch: main
@@ -129,7 +129,7 @@ tools:
   last_updated_by: josc146
   last_updated_on: 2022-12-08 08:00:01.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.0
   license: MIT
